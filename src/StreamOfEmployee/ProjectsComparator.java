@@ -1,4 +1,4 @@
-package StreamOfEmployee;
+package src.StreamOfEmployee;
 
 import java.util.Comparator;
 

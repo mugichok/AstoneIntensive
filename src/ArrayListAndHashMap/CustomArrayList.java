@@ -1,8 +1,10 @@
-package ArrayListAndHashMap;
+package src.ArrayListAndHashMap;
 
-import ArrayListAndHashMap.Exceptions.IndexOutOfBoundsException;
+import src.ArrayListAndHashMap.Exceptions.IndexOutOfBoundsException;
 
-public class CustomArrayList<E> {
+import java.io.Serializable;
+
+public class CustomArrayList<E> implements Serializable {
 
     int i;
     private Object[] list;

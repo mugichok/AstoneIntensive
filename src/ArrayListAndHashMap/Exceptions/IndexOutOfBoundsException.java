@@ -1,4 +1,4 @@
-package ArrayListAndHashMap.Exceptions;
+package src.ArrayListAndHashMap.Exceptions;
 
 public class IndexOutOfBoundsException extends Exception{
     public IndexOutOfBoundsException(String str){

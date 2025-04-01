@@ -1,6 +1,6 @@
-package ArrayListAndHashMap;
+package src.ArrayListAndHashMap;
 
-import ArrayListAndHashMap.Exceptions.IndexOutOfBoundsException;
+import src.ArrayListAndHashMap.Exceptions.IndexOutOfBoundsException;
 
 public class Main {
     public static void main(String[] args) throws IndexOutOfBoundsException {

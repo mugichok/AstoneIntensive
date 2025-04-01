@@ -1,4 +1,4 @@
-package StreamOfEmployee;
+package src.StreamOfEmployee;
 
 public class Projects {
     private String projectName;
