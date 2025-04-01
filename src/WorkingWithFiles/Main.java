@@ -37,6 +37,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        // ищу ошибку
 //        try(DataOutputStream dataOut = new DataOutputStream(new FileOutputStream("DataOutputStream.txt"));
 //            DataInputStream di = new DataInputStream(new FileInputStream("InputFileReader.txt"))){
 //
