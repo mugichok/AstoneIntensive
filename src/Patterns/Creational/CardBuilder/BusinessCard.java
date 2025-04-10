@@ -1,4 +1,4 @@
-package Patterns.creational.Builder;
+package src.Patterns.Creational;
 
 import java.util.Arrays;
 

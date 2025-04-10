@@ -1,4 +1,4 @@
-package Patterns.creational.Builder;
+package src.Patterns.Creational;
 
 import Patterns.creational.Builder.builder.BusinessCardBuilder;
 import Patterns.creational.Builder.builder.SmallBusinessCardBuilder;

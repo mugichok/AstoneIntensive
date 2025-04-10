@@ -1,4 +1,4 @@
-package Patterns.structural.decorator;
+package src.Patterns.Structural;
 
 public abstract class DeveloperDecorator implements Developer{
     Developer developer;

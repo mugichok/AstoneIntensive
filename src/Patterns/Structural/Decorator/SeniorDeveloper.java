@@ -1,4 +1,4 @@
-package Patterns.structural.decorator;
+package src.Patterns.Structural;
 
 public class SeniorDeveloper extends DeveloperDecorator{
     private Developer developer;

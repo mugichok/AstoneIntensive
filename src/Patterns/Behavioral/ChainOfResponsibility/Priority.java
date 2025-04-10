@@ -1,4 +1,4 @@
-package Patterns.behavioral.ChainOfResponsibility;
+package src.Patterns.Behavioral;
 
 public class Priority {
     public static final int ROUTINE = 1;
