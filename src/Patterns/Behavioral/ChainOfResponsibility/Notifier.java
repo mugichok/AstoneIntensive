@@ -1,4 +1,4 @@
-package src.Patterns.Behavioral;
+package src.Patterns.Behavioral.ChainOfResponsibility;
 
 public abstract class Notifier {
     private int priority;

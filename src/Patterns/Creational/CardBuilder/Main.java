@@ -1,7 +1,7 @@
-package src.Patterns.Creational;
+package src.Patterns.Creational.CardBuilder;
 
-import Patterns.creational.Builder.builder.BusinessCardBuilder;
-import Patterns.creational.Builder.builder.SmallBusinessCardBuilder;
+import src.Patterns.Creational.CardBuilder.builder.BusinessCardBuilder;
+import src.Patterns.Creational.CardBuilder.builder.SmallBusinessCardBuilder;
 
 public class Main {
     public static void main(String[] args) {

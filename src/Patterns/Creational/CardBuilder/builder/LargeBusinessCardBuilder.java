@@ -1,4 +1,4 @@
-package src.Patterns.Creational.builder;
+package src.Patterns.Creational.CardBuilder.builder;
 
 public class LargeBusinessCardBuilder extends BusinessCardBuilder{
     @Override

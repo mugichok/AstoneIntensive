@@ -1,4 +1,4 @@
-package src.Patterns.Structural;
+package src.Patterns.Structural.Decorator;
 
 public class Main {
     public static void main(String[] args) {

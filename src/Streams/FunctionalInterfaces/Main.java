@@ -12,5 +12,20 @@ BinaryOperator<T> - принимает в качестве параметра д
 
 Под капотом лямбда выражение - анонимный класс или метод
  */
-public class FunctionalInterfaces {
+
+@FunctionalInterface
+interface MathOperation {
+    int operation(int a, int b);
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // лямбда выражения для умножения и сложения
+        MathOperation addition = (int a, int b) -> a + b;
+        MathOperation multiplication = (int a, int b) -> a * b;
+
+        System.out.println("Сложение" + addition.operation(5, 3));
+        System.out.println("Умножение" + multiplication.operation(3,5));
+    }
+
 }

@@ -1,6 +1,6 @@
-package src.Patterns.Creational.builder;
+package src.Patterns.Creational.CardBuilder.builder;
 
-import Patterns.creational.Builder.BusinessCard;
+import src.Patterns.Creational.CardBuilder.BusinessCard;
 
 public abstract class BusinessCardBuilder {
     private BusinessCard businessCard;

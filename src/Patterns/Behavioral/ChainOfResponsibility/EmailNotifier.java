@@ -1,4 +1,4 @@
-package src.Patterns.Behavioral;
+package src.Patterns.Behavioral.ChainOfResponsibility;
 
 public class EmailNotifier extends Notifier{
 

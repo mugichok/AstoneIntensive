@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class CustomHashMap<K ,V> {
 
-    public LinkedList<CustomNode<K,V>>[] Customtable;
+    private LinkedList<CustomNode<K,V>>[] Customtable;
     private int size;
     static final int DEFAULT_SIZE = 16;
 
@@ -96,6 +96,27 @@ public class CustomHashMap<K ,V> {
         return false;
     }
 
+    public V remove(K key){
+        for(CustomNode<K, V> nodes : Customtable[getIndex(key)]){
+            if(nodes.key == key){
+                V value = nodes.value;
+                Customtable[getIndex(key)].remove(nodes);
+                return value;
+            }
+        }
+        return null;
+    }
+
+    public boolean remove(K key, V value){
+        for(CustomNode<K, V> nodes : Customtable[getIndex(key)]){
+            if(nodes.key == key && nodes.value == value){
+                Customtable[getIndex(key)].remove(nodes);
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     @Override
     public boolean equals(Object o) {
@@ -120,7 +141,7 @@ public class CustomHashMap<K ,V> {
                 }
             }
         }
-        sb.delete(sb.length()-2, sb.length()-1);
+        sb.delete(sb.length()-2, sb.length());
         sb.append("]");
         return sb.toString();
     }

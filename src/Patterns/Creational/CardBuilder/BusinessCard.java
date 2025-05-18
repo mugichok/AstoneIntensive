@@ -1,4 +1,4 @@
-package src.Patterns.Creational;
+package src.Patterns.Creational.CardBuilder;
 
 import java.util.Arrays;
 

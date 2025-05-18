@@ -1,4 +1,4 @@
-package src.Patterns.Structural;
+package src.Patterns.Structural.Decorator;
 
 public class Junior implements Developer{
     @Override
