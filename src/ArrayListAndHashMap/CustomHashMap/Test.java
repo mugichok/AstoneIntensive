@@ -1,6 +1,4 @@
-package src;
-
-import src.ArrayListAndHashMap.CustomHashMap;
+package src.ArrayListAndHashMap.CustomHashMap;
 
 public class Test {
     public static void main(String[] args) {

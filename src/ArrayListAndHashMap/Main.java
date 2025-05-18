@@ -1,5 +1,6 @@
 package src.ArrayListAndHashMap;
 
+import src.ArrayListAndHashMap.CustomHashMap.CustomHashMap;
 import src.ArrayListAndHashMap.Exceptions.IndexOutOfBoundsException;
 
 public class Main {
