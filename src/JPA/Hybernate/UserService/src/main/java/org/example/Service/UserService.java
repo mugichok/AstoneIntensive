@@ -6,10 +6,10 @@ import org.example.Entity.User;
 import java.util.List;
 
 public class UserService {
-    private UserDao userDao;
+    private UserDao UserDao;
 
     public UserService() {
-        userDao = new UserDao();
+        UserDao = new UserDao();
     }
 
     public void createUser(String name, String email, int age) {
@@ -17,23 +17,23 @@ public class UserService {
         user.setName(name);
         user.setEmail(email);
         user.setAge(age);
-        userDao.save(user);
+        UserDao.save(user);
     }
 
     public User getUser(Long id) {
-        return userDao.get(id);
+        return UserDao.get(id);
     }
 
     public List<User> getAllUsers() {
-        return userDao.getAll();
+        return UserDao.getAll();
     }
 
     public void updateUser(User user) {
-        userDao.update(user);
+        UserDao.update(user);
     }
 
     public void deleteUser(Long id) {
-        userDao.delete(id);
+        UserDao.delete(id);
     }
 }
 
